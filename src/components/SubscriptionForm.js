@@ -6,6 +6,7 @@ import {
   Button,
   Box,
   useToast,
+  useColorModeValue,
 } from '@chakra-ui/react';
 
 const SubscriptionForm = () => {
@@ -24,11 +25,15 @@ const SubscriptionForm = () => {
     });
   };
 
+  // Use brand colors for styling
+  const bgColor = useColorModeValue('teal.500', 'teal.200');
+  const color = useColorModeValue('white', 'gray.800');
+
   return (
-    <Box my={4}>
+    <Box my={4} bg={bgColor} p={5} borderRadius="md">
       <form onSubmit={handleSubmit}>
         <FormControl>
-          <FormLabel htmlFor='email'>Subscribe to our newsletter</FormLabel>
+          <FormLabel htmlFor='email' color={color}>Subscribe to our newsletter</FormLabel>
           <Input
             type='email'
             id='email'
@@ -36,12 +41,16 @@ const SubscriptionForm = () => {
             onChange={(e) => setEmail(e.target.value)}
             placeholder='Enter your email'
             isRequired
+            bg={useColorModeValue('white', 'gray.700')}
+            color={color}
           />
           <Button
-            mt={2}
+            mt={4}
             colorScheme='teal'
             type='submit'
             isFullWidth
+            bg={useColorModeValue('blue.500', 'blue.300')}
+            color={useColorModeValue('white', 'gray.800')}
           >
             Subscribe
           </Button>
