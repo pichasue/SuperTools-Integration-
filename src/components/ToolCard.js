@@ -11,15 +11,19 @@ const ToolCard = ({ title, description, tags }) => {
       borderRadius="md"
       maxWidth="sm"
       margin="2"
+      bg="white" // Changed background color to white for better contrast
+      borderColor="gray.200" // Lighter border color for a subtle effect
     >
       <VStack align="stretch">
-        <Text fontSize="xl" fontWeight="semibold">
+        <Text fontSize="xl" fontWeight="semibold" color="gray.800"> {/* Darker text color for the title */}
           {title}
         </Text>
-        <Text mt={4}>{description}</Text>
+        <Text mt={4} color="gray.600"> {/* Darker text color for the description */}
+          {description}
+        </Text>
         <HStack spacing={4} mt={4}>
           {tags.map((tag, index) => (
-            <Tag size="md" variant="solid" colorScheme="teal" key={index}>
+            <Tag size="md" variant="solid" colorScheme="teal" key={index} borderRadius="full"> {/* Rounded tags to match the brand's soft aesthetic */}
               {tag}
             </Tag>
           ))}

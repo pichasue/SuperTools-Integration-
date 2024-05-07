@@ -13,17 +13,49 @@ const SubscriptionForm = () => {
   const [email, setEmail] = useState('');
   const toast = useToast();
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // TODO: Integrate with a form handling service like Tally for managing form submissions.
-    // Placeholder for subscription logic
-    toast({
-      title: 'Subscription successful.',
-      description: "We've added your email to our mailing list.",
-      status: 'success',
-      duration: 9000,
-      isClosable: true,
-    });
+    // TODO: Replace this URL with the actual subscription service endpoint
+    const subscriptionEndpoint = 'https://example.com/subscribe'; // Placeholder URL
+    try {
+      // TODO: Replace this fetch call with the actual API call to the subscription service
+      const response = await fetch(subscriptionEndpoint, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        toast({
+          title: 'Subscription successful.',
+          description: "We've added your email to our mailing list.",
+          status: 'success',
+          duration: 9000,
+          isClosable: true,
+        });
+        setEmail(''); // Clear the input after successful subscription
+      } else {
+        // Handle errors here, such as displaying a notification to the user
+        toast({
+          title: 'Subscription failed.',
+          description: "There was an issue adding your email to our mailing list.",
+          status: 'error',
+          duration: 9000,
+          isClosable: true,
+        });
+      }
+    } catch (error) {
+      // Handle network errors here
+      toast({
+        title: 'Network error.',
+        description: "There was a problem connecting to the subscription service.",
+        status: 'error',
+        duration: 9000,
+        isClosable: true,
+      });
+    }
   };
 
   // Use brand colors for styling
@@ -49,7 +81,7 @@ const SubscriptionForm = () => {
             mt={4}
             colorScheme='teal'
             type='submit'
-            isFullWidth={true} // Corrected prop to eliminate console warning
+            isFullWidth={true}
             bg={useColorModeValue('blue.500', 'blue.300')}
             color={useColorModeValue('white', 'gray.800')}
           >
