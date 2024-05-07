@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  /* Mobile styles */
+  .tool-card-container {
+    padding: 1rem;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .tool-card {
+    margin: 1rem 0;
+    padding: 1rem;
+    max-width: 100%;
+    border-width: 1px;
+  }
+
+  .subscription-form {
+    margin-top: 1rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+
+  .footer {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Tablet styles */
+  .tool-card-container {
+    padding: 2rem;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tool-card {
+    margin: 1rem;
+    padding: 1.5rem;
+    max-width: 45%;
+    border-width: 1px;
+  }
+
+  .subscription-form {
+    margin-top: 2rem;
+  }
+
+  .navbar {
+    padding: 1rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Desktop styles */
+  .tool-card-container {
+    padding: 2rem;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tool-card {
+    margin: 2rem 1rem;
+    padding: 2rem;
+    max-width: 30%;
+    border-width: 1px;
+  }
+
+  .subscription-form {
+    margin-top: 2rem;
+  }
+
+  .navbar {
+    padding: 1.5rem;
+  }
+
+  .footer {
+    padding: 1.5rem;
+  }
+}
