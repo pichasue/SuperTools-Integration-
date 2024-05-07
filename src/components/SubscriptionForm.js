@@ -81,7 +81,7 @@ const SubscriptionForm = () => {
             mt={4}
             colorScheme='teal'
             type='submit'
-            isFullWidth={true}
+            isFullWidth // Corrected prop for full width
             bg={useColorModeValue('blue.500', 'blue.300')}
             color={useColorModeValue('white', 'gray.800')}
           >
