@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import ToolList from './components/ToolList';
 import Footer from './components/Footer';
+import SubscriptionForm from './components/SubscriptionForm'; // Importing the SubscriptionForm component
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   return (
     <ChakraProvider>
       <NavBar />
+      <SubscriptionForm /> {/* Adding the SubscriptionForm component */}
       <ToolList tools={tools} />
       <Footer />
     </ChakraProvider>
