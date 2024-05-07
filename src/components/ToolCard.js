@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box, Text, Tag, VStack, HStack } from '@chakra-ui/react';
+import { Box, Text, Tag, VStack, HStack, Link } from '@chakra-ui/react';
 
-const ToolCard = ({ title, description, tags }) => {
+const ToolCard = ({ title, description, tags, affiliateLink }) => {
   return (
     <Box
       p={5}
@@ -15,9 +15,11 @@ const ToolCard = ({ title, description, tags }) => {
       borderColor="gray.200" // Lighter border color for a subtle effect
     >
       <VStack align="stretch">
-        <Text fontSize="xl" fontWeight="semibold" color="gray.800"> {/* Darker text color for the title */}
-          {title}
-        </Text>
+        <Link href={affiliateLink} isExternal>
+          <Text fontSize="xl" fontWeight="semibold" color="gray.800"> {/* Darker text color for the title */}
+            {title}
+          </Text>
+        </Link>
         <Text mt={4} color="gray.600"> {/* Darker text color for the description */}
           {description}
         </Text>

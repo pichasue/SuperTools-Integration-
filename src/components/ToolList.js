@@ -23,6 +23,8 @@ const ToolList = ({ tools }) => {
                 title={tool.title}
                 description={tool.description}
                 tags={tool.tags}
+                // Placeholder for affiliate link, to be replaced with actual link
+                affiliateLink="https://placeholder-affiliate-link.com"
               />
             ))}
           </SimpleGrid>
