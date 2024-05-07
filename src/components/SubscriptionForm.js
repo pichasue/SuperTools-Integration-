@@ -15,6 +15,7 @@ const SubscriptionForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    // TODO: Integrate with a form handling service like Tally for managing form submissions.
     // Placeholder for subscription logic
     toast({
       title: 'Subscription successful.',
@@ -56,6 +57,7 @@ const SubscriptionForm = () => {
           </Button>
         </FormControl>
       </form>
+      {/* TODO: Add placeholders for analytics scripts like Google Tag Manager and Fathom here. */}
     </Box>
   );
 };
