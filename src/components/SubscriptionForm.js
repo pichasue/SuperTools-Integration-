@@ -49,7 +49,7 @@ const SubscriptionForm = () => {
             mt={4}
             colorScheme='teal'
             type='submit'
-            isFullWidth
+            isFullWidth={true} // Corrected prop to eliminate console warning
             bg={useColorModeValue('blue.500', 'blue.300')}
             color={useColorModeValue('white', 'gray.800')}
           >
