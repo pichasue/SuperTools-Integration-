@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Box, Flex, Text, Button, useColorModeValue, IconButton } from '@chakra-ui/react';
+import { Box, Flex, Text, Button, IconButton, Stack, Link } from '@chakra-ui/react';
 import { FaTwitter, FaLinkedin, FaBars, FaTimes } from 'react-icons/fa';
 
 const NavBar = () => {
   const [display, setDisplay] = useState('none');
-  // Updated color scheme to match the logo
-  const bgColor = useColorModeValue('gray.100', 'gray.900');
-  const textColor = useColorModeValue('gray.600', 'white');
-  const primaryColor = useColorModeValue('#319795', '#319795'); // Teal color from the logo
-  const accentColor = useColorModeValue('#DAA520', '#DAA520'); // Gold color for accents
+  // Updated color scheme to match the logo and the original site's dark theme
+  const bgColor = 'gray.900'; // Dark background color
+  const textColor = 'white'; // White text color for contrast
+  const primaryColor = '#319795'; // Teal color from the logo
+  const accentColor = '#DAA520'; // Gold color for accents
 
   const handleToggle = () => {
     setDisplay(display === 'none' ? 'flex' : 'none');
@@ -42,26 +42,29 @@ const NavBar = () => {
         display={{ base: display, md: 'flex' }}
         flexBasis={{ base: '100%', md: 'auto' }}
       >
-        <Flex
+        <Stack
           direction={{ base: 'column', md: 'row' }}
           align="center"
           justify="space-between"
           pt={{ base: '4', md: '0' }}
+          spacing={4}
         >
-          {/* Navigation Links */}
-          <Text mr={5} color={primaryColor}>All</Text>
-          <Text mr={5} color={primaryColor}>GPTs</Text>
-          <Text mr={5} color={primaryColor}>Top Picks</Text>
-          <Text mr={5} color={primaryColor}>Submit</Text>
+          {/* Navigation Links updated to match the category tags style */}
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>Trending</Link>
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>All Free</Link>
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>Video</Link>
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>New</Link>
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>Top Rated</Link>
+          <Link href='#' px={2} py={1} rounded={'md'} bg='gray.700' _hover={{ bg: 'gray.600' }}>Submit Tool</Link>
           <Button
             variant="solid"
-            backgroundColor={primaryColor}
+            backgroundColor={accentColor}
             color="white"
-            _hover={{ bg: accentColor }}
+            _hover={{ bg: 'gray.600' }}
           >
             Join for Free
           </Button>
-        </Flex>
+        </Stack>
       </Box>
 
       <Box
