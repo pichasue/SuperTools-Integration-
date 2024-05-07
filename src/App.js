@@ -6,19 +6,39 @@ import SubscriptionForm from './components/SubscriptionForm'; // Importing the S
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
-  // Dummy data for ToolList component
+  // Categorized list of AI tools
   const tools = [
     {
-      title: 'Tool 1',
-      description: 'This is a description for Tool 1.',
-      tags: ['Tag1', 'Tag2']
+      title: 'AI Tool for Media',
+      description: 'An AI tool designed for enhancing media production.',
+      tags: ['Media', 'AI', 'Production'],
+      category: 'Media and Communication'
     },
     {
-      title: 'Tool 2',
-      description: 'This is a description for Tool 2.',
-      tags: ['Tag1', 'Tag2']
+      title: 'AI Tool for Banking',
+      description: 'AI-driven analytics tool for banking insights.',
+      tags: ['Banking', 'Analytics', 'AI'],
+      category: 'Banking'
     },
-    // ... more tools
+    {
+      title: 'AI Health Assistant',
+      description: 'Virtual health assistant powered by AI.',
+      tags: ['Health', 'Assistant', 'AI'],
+      category: 'Health'
+    },
+    {
+      title: 'AI for Agriculture',
+      description: 'Agricultural predictions using AI algorithms.',
+      tags: ['Agriculture', 'Predictions', 'AI'],
+      category: 'Agriculture'
+    },
+    {
+      title: 'Social Development AI',
+      description: 'AI to aid in various social development projects.',
+      tags: ['Social Development', 'Projects', 'AI'],
+      category: 'Social Developments'
+    },
+    // ... more tools can be added here
   ];
 
   return (
