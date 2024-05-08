@@ -313,8 +313,104 @@ const aiTools = {
       "description": "Provides a comprehensive suite of analytical tools for cryptocurrency traders and investors.",
       "tags": ["Crypto", "Analytics Suite", "AI"],
       "affiliateLink": "https://crypto-analysis-tool-4-affiliate-link.com"
+    },
+    {
+      "title": "AI Trading Bot 5",
+      "description": "Sophisticated AI trading bot that adapts to market changes for optimal investment strategies.",
+      "tags": ["AI", "Trading Bot", "Adaptive Algorithms"],
+      "affiliateLink": "https://ai-trading-bot-5-affiliate-link.com"
+    },
+    {
+      "title": "Crypto Analysis Tool 5",
+      "description": "Real-time cryptocurrency market analysis and prediction tool with AI integration.",
+      "tags": ["Crypto", "Real-time Analysis", "AI"],
+      "affiliateLink": "https://crypto-analysis-tool-5-affiliate-link.com"
+    },
+    {
+      "title": "AI Trading Bot 6",
+      "description": "Automated trading bot leveraging AI for real-time market decisions.",
+      "tags": ["AI", "Trading Bot", "Real-time"],
+      "affiliateLink": "https://ai-trading-bot-6-affiliate-link.com"
+    },
+    {
+      "title": "Crypto Analysis Tool 6",
+      "description": "In-depth analysis tool for cryptocurrency market trends and predictions.",
+      "tags": ["Crypto", "Market Analysis", "AI"],
+      "affiliateLink": "https://crypto-analysis-tool-6-affiliate-link.com"
+    },
+    {
+      "title": "Adcreative",
+      "description": "AI-driven platform for creating high-converting ad creatives.",
+      "tags": ["Ad Creation", "AI", "Marketing"],
+      "affiliateLink": "https://free-trial.adcreative.ai/love2024"
+    },
+    {
+      "title": "Figma",
+      "description": "Collaborative interface design tool with real-time collaboration.",
+      "tags": ["Design", "Collaboration", "UI/UX"],
+      "affiliateLink": "https://psxid.figma.com/hzcy968yp4dw-lpaypq"
+    },
+    {
+      "title": "Kissmetrics",
+      "description": "Analytics platform to track, analyze, and optimize customer interaction.",
+      "tags": ["Analytics", "Marketing", "Customer Engagement"],
+      "affiliateLink": "https://partnerstack.kissmetrics.io/suziedemo"
+    },
+    {
+      "title": "Murf.ai",
+      "description": "Text-to-speech platform with realistic AI voices for various use cases.",
+      "tags": ["Text-to-Speech", "AI", "Audio"],
+      "affiliateLink": "https://get.murf.ai/text-to-speech-v5n52twouv4x"
+    },
+    {
+      "title": "Eleven labs",
+      "description": "Advanced text-to-speech technology offering natural and expressive voice synthesis.",
+      "tags": ["Text-to-Speech", "AI", "Natural Language Processing"],
+      "affiliateLink": "elevenlabs.io/?from=suziengatia5858"
+    },
+    {
+      "title": "Oyster",
+      "description": "HR platform for globally distributed teams, simplifying international employment.",
+      "tags": ["HR", "Remote Work", "Employment"],
+      "affiliateLink": "https://oyster.partnerlinks.io/love2024"
+    },
+    {
+      "title": "Pandadoc",
+      "description": "Document automation software for creating, managing, and signing digital documents.",
+      "tags": ["Document Management", "Automation", "E-Signature"],
+      "affiliateLink": "https://pandadoc.partnerlinks.io/love2024"
+    },
+    {
+      "title": "Quillbot",
+      "description": "AI writing and research platform to enhance and streamline the writing process.",
+      "tags": ["Writing Assistant", "AI", "Research"],
+      "affiliateLink": "https://try.quillbot.com/dmv33v2kegrg"
+    },
+    {
+      "title": "Restream",
+      "description": "Live streaming platform that allows you to broadcast across multiple streaming services.",
+      "tags": ["Live Streaming", "Multicast", "Video"],
+      "affiliateLink": "https://try.restream.io/love2024"
+    },
+    {
+      "title": "Social bee",
+      "description": "Social media management tool for content creation, scheduling, and analytics.",
+      "tags": ["Social Media", "Content Scheduling", "Analytics"],
+      "affiliateLink": "https://get.socialbee.io/love2024"
+    },
+    {
+      "title": "Todoist",
+      "description": "Task manager and to-do list application to organize work and life.",
+      "tags": ["Productivity", "Task Management", "Organization"],
+      "affiliateLink": "https://get.todoist.io/love2024"
+    },
+    {
+      "title": "Metricool",
+      "description": "All-in-one digital analytics tool for managing online presence and analyzing data.",
+      "tags": ["Analytics", "Social Media", "Digital Marketing"],
+      "affiliateLink": "https://i.mtr.cool/LLCHNK"
     }
-    // Additional tools can be added here following the same structure
+    // ... additional tools will be added here following the same structure
   ]
 };
 
