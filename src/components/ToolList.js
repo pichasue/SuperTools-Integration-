@@ -233,79 +233,79 @@ const aiTools = {
       "title": "3Commas",
       "description": "Smart trading terminal and auto trading bots.",
       "tags": ["Trading Bots", "Portfolio Management", "Cryptocurrency"],
-      "affiliateLink": "https://3commas.io"
+      "affiliateLink": "https://partner.3commas.io/susanngatia" // Updated affiliate link
     },
     {
       "title": "Pionex",
       "description": "Automated trading with a variety of bots including Grid Trading Bot and DCA Bot.",
       "tags": ["Trading Automation", "Cryptocurrency", "AI"],
-      "affiliateLink": "https://pionex.com"
+      "affiliateLink": "https://free-trial.adcreative.ai/love2024"
     },
     {
       "title": "Altrady",
       "description": "Trade on multiple exchanges with advanced features and a range of bots.",
       "tags": ["Trading Bots", "Crypto Exchanges", "AI"],
-      "affiliateLink": "https://altrady.com"
+      "affiliateLink": "https://psxid.figma.com/hzcy968yp4dw-lpaypq"
     },
     {
       "title": "Octobot",
       "description": "Automated trading strategies with custom AI development capabilities.",
       "tags": ["Custom AI", "Trading Strategies", "Automation"],
-      "affiliateLink": "https://octobot.online"
+      "affiliateLink": "https://partnerstack.kissmetrics.io/suziedemo"
     },
     {
       "title": "ArbitrageScanner",
       "description": "Tool for arbitrage trading across exchanges without pre-holding tokens.",
       "tags": ["Arbitrage", "Trading", "AI"],
-      "affiliateLink": "https://arbitragescanner.io"
+      "affiliateLink": "https://get.murf.ai/text-to-speech-v5n52twouv4x"
     },
     {
       "title": "Kryll",
       "description": "AI-powered crypto trading bot with a strategy builder and marketplace.",
       "tags": ["Crypto Trading", "Strategy Builder", "AI"],
-      "affiliateLink": "https://kryll.io"
+      "affiliateLink": "https://elevenlabs.io/?from=suziengatia5858"
     },
     {
       "title": "CryptoHopper",
       "description": "AI crypto trading bot with a range of tools and backtesting capabilities.",
       "tags": ["Trading Bot", "Backtesting", "AI"],
-      "affiliateLink": "https://cryptohopper.com"
+      "affiliateLink": "https://oyster.partnerlinks.io/love2024"
     },
     {
       "title": "Bitsgap",
       "description": "Crypto trading bots and portfolio management with integration across 30 exchanges.",
       "tags": ["Trading Bots", "Portfolio Management", "Integration"],
-      "affiliateLink": "https://bitsgap.com"
+      "affiliateLink": "https://pandadoc.partnerlinks.io/love2024"
     },
     {
       "title": "TradeSanta",
       "description": "Cryptocurrency trading software and bot for leveraging market fluctuations.",
       "tags": ["Trading Software", "Crypto Market", "AI"],
-      "affiliateLink": "https://tradesanta.com"
+      "affiliateLink": "https://try.quillbot.com/dmv33v2kegrg"
     },
     {
       "title": "CryptoHero",
       "description": "AI-powered multi-platform crypto bot for optimized trading.",
       "tags": ["Crypto Bot", "AI", "Trading Optimization"],
-      "affiliateLink": "https://cryptohero.ai"
+      "affiliateLink": "https://try.restream.io/love2024"
     },
     {
       "title": "AI Trading Bot 3",
       "description": "A next-generation trading bot that uses AI to predict market changes with high accuracy.",
       "tags": ["AI", "Trading Bot", "Market Prediction"],
-      "affiliateLink": "https://ai-trading-bot-3-affiliate-link.com"
+      "affiliateLink": "https://get.socialbee.io/love2024"
     },
     {
       "title": "Crypto Analysis Tool 3",
       "description": "An advanced tool for deep analysis of cryptocurrency markets, offering actionable insights.",
       "tags": ["Crypto", "Deep Analysis", "AI"],
-      "affiliateLink": "https://crypto-analysis-tool-3-affiliate-link.com"
+      "affiliateLink": "https://get.todoist.io/love2024"
     },
     {
       "title": "AI Trading Bot 4",
       "description": "AI-driven bot that offers automated trading across multiple cryptocurrency exchanges.",
       "tags": ["AI", "Trading Bot", "Multi-Exchange"],
-      "affiliateLink": "https://ai-trading-bot-4-affiliate-link.com"
+      "affiliateLink": "https://i.mtr.cool/LLCHNK"
     },
     {
       "title": "Crypto Analysis Tool 4",
