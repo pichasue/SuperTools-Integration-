@@ -291,16 +291,28 @@ const aiTools = {
       "affiliateLink": "https://cryptohero.ai"
     },
     {
-      "title": "New AI Tool 1",
-      "description": "Description for new AI tool 1.",
-      "tags": ["Tag1", "Tag2", "Tag3"],
-      "affiliateLink": "https://new-ai-tool-1-affiliate-link.com"
+      "title": "AI Trading Bot 1",
+      "description": "AI-powered trading bot offering real-time trading signals and strategies.",
+      "tags": ["AI", "Trading Bot", "Real-time"],
+      "affiliateLink": "https://ai-trading-bot-1-affiliate-link.com"
     },
     {
-      "title": "New AI Tool 2",
-      "description": "Description for new AI tool 2.",
-      "tags": ["Tag1", "Tag2", "Tag3"],
-      "affiliateLink": "https://new-ai-tool-2-affiliate-link.com"
+      "title": "Crypto Analysis Tool 1",
+      "description": "Comprehensive crypto market analysis tool with AI-driven insights.",
+      "tags": ["Crypto", "Market Analysis", "AI"],
+      "affiliateLink": "https://crypto-analysis-tool-1-affiliate-link.com"
+    },
+    {
+      "title": "AI Trading Bot 2",
+      "description": "Advanced AI trading bot with customizable strategies for various cryptocurrencies.",
+      "tags": ["AI", "Trading Bot", "Cryptocurrency"],
+      "affiliateLink": "https://ai-trading-bot-2-affiliate-link.com"
+    },
+    {
+      "title": "Crypto Analysis Tool 2",
+      "description": "In-depth analysis and forecasting of cryptocurrency markets using AI algorithms.",
+      "tags": ["Crypto", "Analysis", "AI"],
+      "affiliateLink": "https://crypto-analysis-tool-2-affiliate-link.com"
     }
     // ... additional tools will be added here following the same structure
   ]
