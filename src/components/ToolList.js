@@ -122,26 +122,26 @@ const aiTools = {
       "title": "Kasisto",
       "description": "AI for finance that enables meaningful customer engagement through intelligent conversations.",
       "tags": ["Finance", "AI", "Conversational"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-kasisto.com"
     },
     {
       "title": "Zest AI",
       "description": "Lending software that uses AI to better assess borrower risk and improve loan performance.",
       "tags": ["Lending", "Risk Assessment", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-zestai.com"
     },
     // Additional tools added here
     {
       "title": "Domo",
       "description": "Business intelligence tools and data visualization.",
       "tags": ["Business Intelligence", "Data Visualization", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-domo.com"
     },
     {
       "title": "Booke.AI",
       "description": "AI-powered financial assistant for bookkeeping.",
       "tags": ["Bookkeeping", "Finance", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-bookeai.com"
     },
     // ... other tools for Banking
   ],
@@ -150,26 +150,26 @@ const aiTools = {
       "title": "PathAI",
       "description": "AI-powered technology for pathology to assist in accurate diagnosis.",
       "tags": ["Pathology", "Diagnosis", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-pathai.com"
     },
     {
       "title": "Babylon Health",
       "description": "Digital healthcare assistant powered by AI, offering medical consultations.",
       "tags": ["Healthcare", "Consultation", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-babylonhealth.com"
     },
     // Additional tools added here
     {
       "title": "Merative",
       "description": "Clinical decision support and healthcare analytics.",
       "tags": ["Healthcare Analytics", "Clinical Support", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-merative.com"
     },
     {
       "title": "Regard",
       "description": "Automating clinical tasks with AI.",
       "tags": ["Clinical Tasks", "Automation", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-regard.com"
     },
     // ... other tools for Health
   ],
@@ -178,26 +178,25 @@ const aiTools = {
       "title": "FarmBot",
       "description": "Open-source CNC farming machine and software for automated precision agriculture.",
       "tags": ["Farming", "Automation", "Open-source"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-farmbot.com"
     },
     {
       "title": "CropX",
       "description": "An ag-analytics company that develops cloud-based software solutions integrated with wireless sensors, which increase crop yields.",
       "tags": ["Analytics", "Sensors", "Yield Increase"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-cropx.com"
     },
-    // Additional tools added here
     {
       "title": "Blue River Technology",
       "description": "Specializes in agricultural robotics and machine learning.",
       "tags": ["Agricultural Robotics", "Machine Learning", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-blue-river-technology.com"
     },
     {
       "title": "GPT-4",
       "description": "Advanced AI model capable of various predictive and analytical tasks in agriculture.",
       "tags": ["Predictive Models", "Analytics", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-gpt-4.com"
     },
     // ... other tools for Agriculture
   ],
@@ -206,26 +205,26 @@ const aiTools = {
       "title": "Ushahidi",
       "description": "A platform that allows users to crowdsource crisis information via text messaging and social media.",
       "tags": ["Crisis Response", "Crowdsourcing", "Platform"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-ushahidi.com"
     },
     {
       "title": "DataKind",
       "description": "Harnesses the power of data science in the service of humanity.",
       "tags": ["Data Science", "Humanity", "Service"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-datakind.com"
     },
     // Additional tools added here
     {
       "title": "Lately",
       "description": "AI-powered social media management tool.",
       "tags": ["Social Media Management", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-lately.com"
     },
     {
       "title": "Flick",
       "description": "Social media content planning and hashtag tool.",
       "tags": ["Content Planning", "Hashtag Tool", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-flick.com"
     },
     // ... other tools for Social Development
   ],
