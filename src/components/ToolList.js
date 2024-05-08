@@ -456,22 +456,13 @@ const ToolList = ({ tools = aiTools }) => {
   console.log("Tools prop (initial):", tools, "Type:", typeof tools);
 
   // Group tools by category
-  const groupedTools = Object.entries(tools).reduce((group, [category, toolsInCategory]) => {
-    // Log the category and the type and content of toolsInCategory before processing
+  const groupedTools = Object.keys(tools).reduce((group, category) => {
+    const toolsInCategory = tools[category];
     console.log(`Category: ${category}`, `Tools in category (before reduce):`, toolsInCategory, "Type:", Array.isArray(toolsInCategory) ? "Array" : typeof toolsInCategory);
 
-    // Initialize the category array if it doesn't exist
-    if (!group[category]) {
-      group[category] = [];
-    }
+    // Ensure the category array is initialized and then directly assign the tools to the category
+    group[category] = Array.isArray(toolsInCategory) ? toolsInCategory : [toolsInCategory];
 
-    // Ensure that toolsInCategory is an array before spreading
-    if (Array.isArray(toolsInCategory)) {
-      group[category] = [...group[category], ...toolsInCategory];
-    } else {
-      // Log an error if toolsInCategory is not an array
-      console.error(`Tools for category ${category} is not an array:`, toolsInCategory);
-    }
     return group;
   }, {});
 
