@@ -409,6 +409,43 @@ const aiTools = {
       "description": "All-in-one digital analytics tool for managing online presence and analyzing data.",
       "tags": ["Analytics", "Social Media", "Digital Marketing"],
       "affiliateLink": "https://i.mtr.cool/LLCHNK"
+    },
+    // ... additional tools will be added here following the same structure
+    {
+      "title": "New AI Trading Bot",
+      "description": "Innovative trading bot leveraging AI for enhanced cryptocurrency trading strategies.",
+      "tags": ["AI", "Trading Bot", "Cryptocurrency"],
+      "affiliateLink": "https://new-ai-trading-bot-affiliate-link.com"
+    },
+    {
+      "title": "New Crypto Analysis Tool",
+      "description": "Cutting-edge analysis tool providing in-depth insights into cryptocurrency markets.",
+      "tags": ["Crypto", "Analysis", "AI"],
+      "affiliateLink": "https://new-crypto-analysis-tool-affiliate-link.com"
+    },
+    {
+      "title": "New AI Trading Bot 7",
+      "description": "Leverage AI for advanced trading strategies and real-time market analysis.",
+      "tags": ["AI", "Trading Bot", "Market Analysis"],
+      "affiliateLink": "https://new-ai-trading-bot-7-affiliate-link.com"
+    },
+    {
+      "title": "New Crypto Analysis Tool 7",
+      "description": "Gain deep insights and predictive analytics for cryptocurrency markets.",
+      "tags": ["Crypto", "Predictive Analytics", "AI"],
+      "affiliateLink": "https://new-crypto-analysis-tool-7-affiliate-link.com"
+    },
+    {
+      "title": "New AI Trading Bot 8",
+      "description": "Advanced AI trading bot that uses machine learning to optimize trading strategies in real-time.",
+      "tags": ["AI", "Trading Bot", "Machine Learning"],
+      "affiliateLink": "https://new-ai-trading-bot-8-affiliate-link.com"
+    },
+    {
+      "title": "New Crypto Analysis Tool 8",
+      "description": "Comprehensive crypto analysis tool that uses AI to provide market insights and predictions.",
+      "tags": ["Crypto", "Market Analysis", "AI"],
+      "affiliateLink": "https://new-crypto-analysis-tool-8-affiliate-link.com"
     }
     // ... additional tools will be added here following the same structure
   ]
