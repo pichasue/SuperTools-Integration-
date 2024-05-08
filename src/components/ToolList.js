@@ -9,7 +9,7 @@ const aiTools = {
       "title": "Buffer",
       "description": "A platform for scheduling, publishing, and analyzing social media posts.",
       "tags": ["Social Media", "Scheduling", "Analytics"],
-      "affiliateLink": "https://actual-affiliate-link-for-buffer.com"
+      "affiliateLink": "https://buffer.com?ref=susanngatia"
     },
     {
       "title": "Grammarly",
