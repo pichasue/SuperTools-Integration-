@@ -365,7 +365,7 @@ const aiTools = {
       "title": "Eleven labs",
       "description": "Advanced text-to-speech technology offering natural and expressive voice synthesis.",
       "tags": ["Text-to-Speech", "AI", "Natural Language Processing"],
-      "affiliateLink": "elevenlabs.io/?from=suziengatia5858"
+      "affiliateLink": "https://elevenlabs.io/?from=suziengatia5858"
     },
     {
       "title": "Oyster",
