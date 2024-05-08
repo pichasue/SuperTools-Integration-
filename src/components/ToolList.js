@@ -1,7 +1,7 @@
 import React from 'react';
 import { SimpleGrid, Box, Heading } from '@chakra-ui/react';
 import ToolCard from './ToolCard';
-import categorizedTools from './categorized_tools.json';
+import categorizedTools from '../categorized_tools.json'; // Updated import path
 
 const ToolList = ({ tools = categorizedTools }) => {
   // Log the initial structure and type of the tools prop
