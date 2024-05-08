@@ -9,111 +9,111 @@ const aiTools = {
       "title": "Buffer",
       "description": "A platform for scheduling, publishing, and analyzing social media posts.",
       "tags": ["Social Media", "Scheduling", "Analytics"],
-      "affiliateLink": "https://free-trial.adcreative.ai/love2024"
+      "affiliateLink": "https://partner.buffer.com/12345"
     },
     {
       "title": "Grammarly",
       "description": "An AI-powered writing assistant that helps you write clear, mistake-free content.",
       "tags": ["Writing", "Content", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-grammarly.com"
+      "affiliateLink": "https://grammarly.com"
     },
     // Additional tools added here
     {
       "title": "Jasper",
       "description": "AI content creation tool.",
       "tags": ["Content Creation", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-jasper.com"
+      "affiliateLink": "https://jasper.ai"
     },
     {
       "title": "Synthesia",
       "description": "Create professional AI videos from text in 50+ languages.",
       "tags": ["Video Creation", "AI", "Multilingual"],
-      "affiliateLink": "https://actual-affiliate-link-for-synthesia.com"
+      "affiliateLink": "https://synthesia.io"
     },
     {
       "title": "Hootsuite",
       "description": "Manage all your social media in one place with automated publishing and analytics tracking.",
       "tags": ["Social Media Management", "Publishing", "Analytics"],
-      "affiliateLink": "https://actual-affiliate-link-for-hootsuite.com"
+      "affiliateLink": "https://hootsuite.com"
     },
     {
       "title": "DeepL",
       "description": "AI-powered translation tool that produces natural-sounding translations in various languages.",
       "tags": ["Translation", "AI", "Multilingual"],
-      "affiliateLink": "https://actual-affiliate-link-for-deepl.com"
+      "affiliateLink": "https://deepl.com"
     },
     {
       "title": "Canva",
       "description": "A graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.",
       "tags": ["Graphic Design", "Content Creation", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-canva.com"
+      "affiliateLink": "https://canva.com"
     },
     {
       "title": "Talkwalker",
       "description": "AI-powered social media analytics platform that helps marketers understand and optimize their social presence.",
       "tags": ["Social Media Analytics", "Marketing", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-talkwalker.com"
+      "affiliateLink": "https://talkwalker.com"
     },
     {
       "title": "Chatbot",
       "description": "AI-driven chatbot for engaging customers in real-time.",
       "tags": ["Customer Service", "Chatbot", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-chatbot.com"
+      "affiliateLink": "https://chatbot.com"
     },
     {
       "title": "Voicer",
       "description": "Text-to-speech tool that converts written content into natural-sounding audio.",
       "tags": ["Text-to-Speech", "Audio Content", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-voicer.com"
+      "affiliateLink": "https://voicer.com"
     },
     // Additional tools added here
     {
       "title": "Zapier",
       "description": "Automate workflows with a web-based service that allows end users to integrate the web applications they use.",
       "tags": ["Workflow Automation", "Productivity", "Integration"],
-      "affiliateLink": "https://actual-affiliate-link-for-zapier.com"
+      "affiliateLink": "https://zapier.com"
     },
     {
       "title": "Mailchimp",
       "description": "Marketing automation platform and an email marketing service.",
       "tags": ["Email Marketing", "Marketing Automation", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-mailchimp.com"
+      "affiliateLink": "https://mailchimp.com"
     },
     {
       "title": "Crayon",
       "description": "AI-driven platform that tracks and analyzes a company's external environment to inform strategic decisions.",
       "tags": ["Market Intelligence", "Competitive Analysis", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-crayon.com"
+      "affiliateLink": "https://crayon.com"
     },
     {
       "title": "Adobe Spark",
       "description": "An integrated suite of media creation applications for mobile and web.",
       "tags": ["Graphic Design", "Video Creation", "Web Development"],
-      "affiliateLink": "https://actual-affiliate-link-for-adobe-spark.com"
+      "affiliateLink": "https://spark.adobe.com"
     },
     {
       "title": "Animoto",
       "description": "Cloud-based video creation service that produces video from photos, video clips, and music.",
       "tags": ["Video Editing", "Marketing", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-animoto.com"
+      "affiliateLink": "https://animoto.com"
     },
     {
       "title": "Adobe Premiere Pro",
       "description": "Industry-standard video editing software for creating high-quality content.",
       "tags": ["Video Editing", "Content Creation", "Professional"],
-      "affiliateLink": "https://actual-affiliate-link-for-adobe-premiere-pro.com"
+      "affiliateLink": "https://adobe.com/products/premiere.html"
     },
     {
       "title": "BuzzSumo",
       "description": "Content marketing tool that allows users to find the most shared content and key influencers.",
       "tags": ["Content Marketing", "Influencer Tracking", "Analytics"],
-      "affiliateLink": "https://actual-affiliate-link-for-buzzsumo.com"
+      "affiliateLink": "https://buzzsumo.com"
     },
     {
       "title": "SEMrush",
       "description": "Online visibility management and content marketing SaaS platform.",
       "tags": ["SEO", "Marketing", "Content Strategy"],
-      "affiliateLink": "https://actual-affiliate-link-for-semrush.com"
+      "affiliateLink": "https://semrush.com"
     },
     // ... other tools for Media and Communication
   ],
