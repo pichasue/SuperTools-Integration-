@@ -9,95 +9,268 @@ const aiTools = {
       "title": "Buffer",
       "description": "A platform for scheduling, publishing, and analyzing social media posts.",
       "tags": ["Social Media", "Scheduling", "Analytics"],
-      "affiliateLink": "https://buffer.com"
+      "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     {
       "title": "Grammarly",
       "description": "An AI-powered writing assistant that helps you write clear, mistake-free content.",
       "tags": ["Writing", "Content", "AI"],
-      "affiliateLink": "https://grammarly.com"
-    }
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Jasper",
+      "description": "AI content creation tool.",
+      "tags": ["Content Creation", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Synthesia",
+      "description": "Create professional AI videos from text in 50+ languages.",
+      "tags": ["Video Creation", "AI", "Multilingual"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Hootsuite",
+      "description": "Manage all your social media in one place with automated publishing and analytics tracking.",
+      "tags": ["Social Media Management", "Publishing", "Analytics"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "DeepL",
+      "description": "AI-powered translation tool that produces natural-sounding translations in various languages.",
+      "tags": ["Translation", "AI", "Multilingual"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Canva",
+      "description": "A graphic design platform, used to create social media graphics, presentations, posters, documents and other visual content.",
+      "tags": ["Graphic Design", "Content Creation", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Talkwalker",
+      "description": "AI-powered social media analytics platform that helps marketers understand and optimize their social presence.",
+      "tags": ["Social Media Analytics", "Marketing", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Chatbot",
+      "description": "AI-driven chatbot for engaging customers in real-time.",
+      "tags": ["Customer Service", "Chatbot", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Voicer",
+      "description": "Text-to-speech tool that converts written content into natural-sounding audio.",
+      "tags": ["Text-to-Speech", "Audio Content", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Zapier",
+      "description": "Automate workflows with a web-based service that allows end users to integrate the web applications they use.",
+      "tags": ["Workflow Automation", "Productivity", "Integration"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Mailchimp",
+      "description": "Marketing automation platform and an email marketing service.",
+      "tags": ["Email Marketing", "Marketing Automation", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Crayon",
+      "description": "AI-driven platform that tracks and analyzes a company's external environment to inform strategic decisions.",
+      "tags": ["Market Intelligence", "Competitive Analysis", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Adobe Spark",
+      "description": "An integrated suite of media creation applications for mobile and web.",
+      "tags": ["Graphic Design", "Video Creation", "Web Development"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Animoto",
+      "description": "Cloud-based video creation service that produces video from photos, video clips, and music.",
+      "tags": ["Video Editing", "Marketing", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Adobe Premiere Pro",
+      "description": "Industry-standard video editing software for creating high-quality content.",
+      "tags": ["Video Editing", "Content Creation", "Professional"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "BuzzSumo",
+      "description": "Content marketing tool that allows users to find the most shared content and key influencers.",
+      "tags": ["Content Marketing", "Influencer Tracking", "Analytics"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "SEMrush",
+      "description": "Online visibility management and content marketing SaaS platform.",
+      "tags": ["SEO", "Marketing", "Content Strategy"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // ... other tools for Media and Communication
   ],
   "Banking": [
     {
       "title": "Kasisto",
       "description": "AI for finance that enables meaningful customer engagement through intelligent conversations.",
       "tags": ["Finance", "AI", "Conversational"],
-      "affiliateLink": "https://kasisto.com"
+      "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     {
       "title": "Zest AI",
       "description": "Lending software that uses AI to better assess borrower risk and improve loan performance.",
       "tags": ["Lending", "Risk Assessment", "AI"],
-      "affiliateLink": "https://zest.ai"
-    }
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Domo",
+      "description": "Business intelligence tools and data visualization.",
+      "tags": ["Business Intelligence", "Data Visualization", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Booke.AI",
+      "description": "AI-powered financial assistant for bookkeeping.",
+      "tags": ["Bookkeeping", "Finance", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // ... other tools for Banking
   ],
   "Health": [
     {
       "title": "PathAI",
       "description": "AI-powered technology for pathology to assist in accurate diagnosis.",
       "tags": ["Pathology", "Diagnosis", "AI"],
-      "affiliateLink": "https://pathai.com"
+      "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     {
       "title": "Babylon Health",
       "description": "Digital healthcare assistant powered by AI, offering medical consultations.",
       "tags": ["Healthcare", "Consultation", "AI"],
-      "affiliateLink": "https://babylonhealth.com"
-    }
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Merative",
+      "description": "Clinical decision support and healthcare analytics.",
+      "tags": ["Healthcare Analytics", "Clinical Support", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Regard",
+      "description": "Automating clinical tasks with AI.",
+      "tags": ["Clinical Tasks", "Automation", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // ... other tools for Health
   ],
   "Agriculture": [
     {
       "title": "FarmBot",
       "description": "Open-source CNC farming machine and software for automated precision agriculture.",
       "tags": ["Farming", "Automation", "Open-source"],
-      "affiliateLink": "https://farm.bot"
+      "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     {
       "title": "CropX",
       "description": "An ag-analytics company that develops cloud-based software solutions integrated with wireless sensors, which increase crop yields.",
       "tags": ["Analytics", "Sensors", "Yield Increase"],
-      "affiliateLink": "https://cropx.com"
-    }
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Blue River Technology",
+      "description": "Specializes in agricultural robotics and machine learning.",
+      "tags": ["Agricultural Robotics", "Machine Learning", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "GPT-4",
+      "description": "Advanced AI model capable of various predictive and analytical tasks in agriculture.",
+      "tags": ["Predictive Models", "Analytics", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // ... other tools for Agriculture
   ],
   "Social Development": [
     {
       "title": "Ushahidi",
       "description": "A platform that allows users to crowdsource crisis information via text messaging and social media.",
       "tags": ["Crisis Response", "Crowdsourcing", "Platform"],
-      "affiliateLink": "https://ushahidi.com"
+      "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     {
       "title": "DataKind",
       "description": "Harnesses the power of data science in the service of humanity.",
       "tags": ["Data Science", "Humanity", "Service"],
-      "affiliateLink": "https://datakind.org"
-    }
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // Additional tools added here
+    {
+      "title": "Lately",
+      "description": "AI-powered social media management tool.",
+      "tags": ["Social Media Management", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    {
+      "title": "Flick",
+      "description": "Social media content planning and hashtag tool.",
+      "tags": ["Content Planning", "Hashtag Tool", "AI"],
+      "affiliateLink": "https://placeholder-affiliate-link.com"
+    },
+    // ... other tools for Social Development
   ]
 };
 
 const ToolList = ({ tools = aiTools }) => {
+  // Log the initial structure and type of the tools prop
+  console.log("Tools prop (initial):", tools, "Type:", typeof tools);
+
   // Group tools by category
-  const groupedTools = Object.entries(tools).reduce((group, [category, tools]) => {
-    group[category] = group[category] ?? [];
-    group[category].push(...tools);
+  const groupedTools = Object.entries(tools).reduce((group, [category, toolsInCategory]) => {
+    // Log the category and the type and content of toolsInCategory before processing
+    console.log(`Category: ${category}`, `Tools in category (before reduce):`, toolsInCategory, "Type:", Array.isArray(toolsInCategory) ? "Array" : typeof toolsInCategory);
+
+    // Initialize the category array if it doesn't exist
+    if (!group[category]) {
+      group[category] = [];
+    }
+
+    // Ensure that toolsInCategory is an array before spreading
+    if (Array.isArray(toolsInCategory)) {
+      group[category] = [...group[category], ...toolsInCategory];
+    } else {
+      // Log an error if toolsInCategory is not an array
+      console.error(`Tools for category ${category} is not an array:`, toolsInCategory);
+    }
     return group;
   }, {});
 
+  // Log the final grouped tools structure
+  console.log("Grouped tools (after reduce):", groupedTools);
+
   return (
     <Box>
+      <Heading as="h2" size="xl" mb={6}>
+        AI Tools Directory
+      </Heading>
       {Object.entries(groupedTools).map(([category, tools]) => (
         <Box key={category} mb={10}>
-          <Heading as="h3" size="lg" mb={4}>{category}</Heading>
-          <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={10}>
+          <Heading as="h3" size="lg" mb={4}>
+            {category}
+          </Heading>
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={5}>
             {tools.map((tool, index) => (
-              <ToolCard
-                key={index}
-                title={tool.title}
-                description={tool.description}
-                tags={tool.tags}
-                affiliateLink={tool.affiliateLink}
-              />
+              <ToolCard key={index} {...tool} />
             ))}
           </SimpleGrid>
         </Box>
