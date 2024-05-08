@@ -1,9 +1,64 @@
 {
-  "Media and Communication": [],
-  "Banking": [],
-  "Health": [],
-  "Agriculture": [],
-  "Social Developments": [],
-  "AI": [],
-  "Crypto": []
+  "Media and Communication": [
+    {
+      "title": "Tool A",
+      "description": "Description for Tool A.",
+      "tags": ["tag1", "tag2"],
+      "affiliateLink": "http://affiliate.link.for.tool.a"
+    },
+    {
+      "title": "Tool B",
+      "description": "Description for Tool B.",
+      "tags": ["tag3", "tag4"],
+      "affiliateLink": "http://affiliate.link.for.tool.b"
+    }
+  ],
+  "Banking": [
+    {
+      "title": "Tool C",
+      "description": "Description for Tool C.",
+      "tags": ["tag5", "tag6"],
+      "affiliateLink": "http://affiliate.link.for.tool.c"
+    }
+  ],
+  "Health": [
+    {
+      "title": "Tool D",
+      "description": "Description for Tool D.",
+      "tags": ["tag7", "tag8"],
+      "affiliateLink": "http://affiliate.link.for.tool.d"
+    }
+  ],
+  "Agriculture": [
+    {
+      "title": "Tool E",
+      "description": "Description for Tool E.",
+      "tags": ["tag9", "tag10"],
+      "affiliateLink": "http://affiliate.link.for.tool.e"
+    }
+  ],
+  "Social Developments": [
+    {
+      "title": "Tool F",
+      "description": "Description for Tool F.",
+      "tags": ["tag11", "tag12"],
+      "affiliateLink": "http://affiliate.link.for.tool.f"
+    }
+  ],
+  "AI": [
+    {
+      "title": "Tool G",
+      "description": "Description for Tool G.",
+      "tags": ["tag13", "tag14"],
+      "affiliateLink": "http://affiliate.link.for.tool.g"
+    }
+  ],
+  "Crypto": [
+    {
+      "title": "Tool H",
+      "description": "Description for Tool H.",
+      "tags": ["tag15", "tag16"],
+      "affiliateLink": "http://affiliate.link.for.tool.h"
+    }
+  ]
 }
