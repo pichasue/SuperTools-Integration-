@@ -122,26 +122,26 @@ const aiTools = {
       "title": "Kasisto",
       "description": "AI for finance that enables meaningful customer engagement through intelligent conversations.",
       "tags": ["Finance", "AI", "Conversational"],
-      "affiliateLink": "https://actual-affiliate-link-for-kasisto.com"
+      "affiliateLink": "https://kasisto.com?ref=susanngatia"
     },
     {
       "title": "Zest AI",
       "description": "Lending software that uses AI to better assess borrower risk and improve loan performance.",
       "tags": ["Lending", "Risk Assessment", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-zestai.com"
+      "affiliateLink": "https://zest.ai?ref=susanngatia"
     },
     // Additional tools added here
     {
       "title": "Domo",
       "description": "Business intelligence tools and data visualization.",
       "tags": ["Business Intelligence", "Data Visualization", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-domo.com"
+      "affiliateLink": "https://domo.com?ref=susanngatia"
     },
     {
       "title": "Booke.AI",
       "description": "AI-powered financial assistant for bookkeeping.",
       "tags": ["Bookkeeping", "Finance", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-bookeai.com"
+      "affiliateLink": "https://booke.ai?ref=susanngatia"
     },
     // ... other tools for Banking
   ],
@@ -150,26 +150,26 @@ const aiTools = {
       "title": "PathAI",
       "description": "AI-powered technology for pathology to assist in accurate diagnosis.",
       "tags": ["Pathology", "Diagnosis", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-pathai.com"
+      "affiliateLink": "https://pathai.com?ref=susanngatia"
     },
     {
       "title": "Babylon Health",
       "description": "Digital healthcare assistant powered by AI, offering medical consultations.",
       "tags": ["Healthcare", "Consultation", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-babylonhealth.com"
+      "affiliateLink": "https://babylonhealth.com?ref=susanngatia"
     },
     // Additional tools added here
     {
       "title": "Merative",
       "description": "Clinical decision support and healthcare analytics.",
       "tags": ["Healthcare Analytics", "Clinical Support", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-merative.com"
+      "affiliateLink": "https://merative.com?ref=susanngatia"
     },
     {
       "title": "Regard",
       "description": "Automating clinical tasks with AI.",
       "tags": ["Clinical Tasks", "Automation", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-regard.com"
+      "affiliateLink": "https://regard.com?ref=susanngatia"
     },
     // ... other tools for Health
   ],
@@ -190,7 +190,7 @@ const aiTools = {
       "title": "Blue River Technology",
       "description": "Specializes in agricultural robotics and machine learning.",
       "tags": ["Agricultural Robotics", "Machine Learning", "AI"],
-      "affiliateLink": "https://actual-affiliate-link-for-blue-river-technology.com"
+      "affiliateLink": "https://actual-affiliate-link-for-blue-river-tech.com"
     },
     {
       "title": "GPT-4",
