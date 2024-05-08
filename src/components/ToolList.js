@@ -228,6 +228,81 @@ const aiTools = {
       "affiliateLink": "https://placeholder-affiliate-link.com"
     },
     // ... other tools for Social Development
+  ],
+  "AI and Crypto Tools": [
+    {
+      "title": "3Commas",
+      "description": "Smart trading terminal and auto trading bots.",
+      "tags": ["Trading Bots", "Portfolio Management", "Cryptocurrency"],
+      "affiliateLink": "https://3commas.io"
+    },
+    {
+      "title": "Pionex",
+      "description": "Automated trading with a variety of bots including Grid Trading Bot and DCA Bot.",
+      "tags": ["Trading Automation", "Cryptocurrency", "AI"],
+      "affiliateLink": "https://pionex.com"
+    },
+    {
+      "title": "Altrady",
+      "description": "Trade on multiple exchanges with advanced features and a range of bots.",
+      "tags": ["Trading Bots", "Crypto Exchanges", "AI"],
+      "affiliateLink": "https://altrady.com"
+    },
+    {
+      "title": "Octobot",
+      "description": "Automated trading strategies with custom AI development capabilities.",
+      "tags": ["Custom AI", "Trading Strategies", "Automation"],
+      "affiliateLink": "https://octobot.online"
+    },
+    {
+      "title": "ArbitrageScanner",
+      "description": "Tool for arbitrage trading across exchanges without pre-holding tokens.",
+      "tags": ["Arbitrage", "Trading", "AI"],
+      "affiliateLink": "https://arbitragescanner.io"
+    },
+    {
+      "title": "Kryll",
+      "description": "AI-powered crypto trading bot with a strategy builder and marketplace.",
+      "tags": ["Crypto Trading", "Strategy Builder", "AI"],
+      "affiliateLink": "https://kryll.io"
+    },
+    {
+      "title": "CryptoHopper",
+      "description": "AI crypto trading bot with a range of tools and backtesting capabilities.",
+      "tags": ["Trading Bot", "Backtesting", "AI"],
+      "affiliateLink": "https://cryptohopper.com"
+    },
+    {
+      "title": "Bitsgap",
+      "description": "Crypto trading bots and portfolio management with integration across 30 exchanges.",
+      "tags": ["Trading Bots", "Portfolio Management", "Integration"],
+      "affiliateLink": "https://bitsgap.com"
+    },
+    {
+      "title": "TradeSanta",
+      "description": "Cryptocurrency trading software and bot for leveraging market fluctuations.",
+      "tags": ["Trading Software", "Crypto Market", "AI"],
+      "affiliateLink": "https://tradesanta.com"
+    },
+    {
+      "title": "CryptoHero",
+      "description": "AI-powered multi-platform crypto bot for optimized trading.",
+      "tags": ["Crypto Bot", "AI", "Trading Optimization"],
+      "affiliateLink": "https://cryptohero.ai"
+    },
+    {
+      "title": "New AI Tool 1",
+      "description": "Description for new AI tool 1.",
+      "tags": ["Tag1", "Tag2", "Tag3"],
+      "affiliateLink": "https://new-ai-tool-1-affiliate-link.com"
+    },
+    {
+      "title": "New AI Tool 2",
+      "description": "Description for new AI tool 2.",
+      "tags": ["Tag1", "Tag2", "Tag3"],
+      "affiliateLink": "https://new-ai-tool-2-affiliate-link.com"
+    }
+    // ... additional tools will be added here following the same structure
   ]
 };
 
