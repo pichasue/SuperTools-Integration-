@@ -9,20 +9,20 @@ const aiTools = {
       "title": "Buffer",
       "description": "A platform for scheduling, publishing, and analyzing social media posts.",
       "tags": ["Social Media", "Scheduling", "Analytics"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-buffer.com"
     },
     {
       "title": "Grammarly",
       "description": "An AI-powered writing assistant that helps you write clear, mistake-free content.",
       "tags": ["Writing", "Content", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-grammarly.com"
     },
     // Additional tools added here
     {
       "title": "Jasper",
       "description": "AI content creation tool.",
       "tags": ["Content Creation", "AI"],
-      "affiliateLink": "https://placeholder-affiliate-link.com"
+      "affiliateLink": "https://actual-affiliate-link-for-jasper.com"
     },
     {
       "title": "Synthesia",
