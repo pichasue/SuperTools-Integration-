@@ -4,6 +4,9 @@ import ToolCard from './ToolCard';
 import updatedAffiliateLinks from '../updated_affiliate_links.json'; // Import updated affiliate links
 
 const ToolList = () => {
+  // Console log to check if updatedAffiliateLinks is defined
+  console.log('updatedAffiliateLinks data:', updatedAffiliateLinks);
+
   return (
     <Box>
       <Heading as="h2" size="xl" mb={6}>
