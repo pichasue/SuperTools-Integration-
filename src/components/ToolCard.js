@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box, Text, Tag, VStack, HStack, Link } from '@chakra-ui/react';
+import { Box, Text, Tag, VStack, HStack, Link, Image } from '@chakra-ui/react';
 
-const ToolCard = ({ title, description, tags, affiliateLink }) => {
+const ToolCard = ({ title, description, tags, affiliateLink, logo }) => {
   // Ensure tags is always an array to prevent 'map' function TypeError
   const safeTags = Array.isArray(tags) ? tags : [];
 
@@ -18,6 +18,16 @@ const ToolCard = ({ title, description, tags, affiliateLink }) => {
       borderColor="gray.200" // Lighter border color for a subtle effect
     >
       <VStack align="stretch">
+        {logo && (
+          <Image
+            src={logo}
+            alt={`${title} logo`}
+            objectFit="contain"
+            htmlWidth="100%"
+            htmlHeight="auto"
+            borderRadius="md"
+          />
+        )}
         <Link href={affiliateLink} isExternal>
           <Text fontSize="xl" fontWeight="semibold" color="gray.800"> {/* Darker text color for the title */}
             {title}
