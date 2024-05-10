@@ -2,6 +2,9 @@ import React from 'react';
 import { Box, Text, Tag, VStack, HStack, Link } from '@chakra-ui/react';
 
 const ToolCard = ({ title, description, tags, affiliateLink }) => {
+  // Ensure tags is always an array to prevent 'map' function TypeError
+  const safeTags = Array.isArray(tags) ? tags : [];
+
   return (
     <Box
       p={5}
@@ -24,7 +27,7 @@ const ToolCard = ({ title, description, tags, affiliateLink }) => {
           {description}
         </Text>
         <HStack spacing={4} mt={4}>
-          {tags.map((tag, index) => (
+          {safeTags.map((tag, index) => (
             <Tag size="md" variant="solid" colorScheme="teal" key={index} borderRadius="full"> {/* Rounded tags to match the brand's soft aesthetic */}
               {tag}
             </Tag>
