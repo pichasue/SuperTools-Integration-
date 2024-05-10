@@ -10,6 +10,11 @@ const ToolList = () => {
   // Console log to check if updatedAffiliateLinks is defined
   console.log('updatedAffiliateLinks data:', updatedAffiliateLinks);
 
+  // Additional console log to check the structure of the first object in the array
+  if (updatedAffiliateLinks.length > 0) {
+    console.log('Structure of the first tool object:', updatedAffiliateLinks[0]);
+  }
+
   // Check if updatedAffiliateLinks is not only an array but also has objects with required properties
   const validData = updatedAffiliateLinks.every(tool => tool.title && tool.affiliateLink);
 
@@ -32,3 +37,4 @@ const ToolList = () => {
 };
 
 export default ToolList;
+console.log('First tool data:', updatedAffiliateLinks[0]);
