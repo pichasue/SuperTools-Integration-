@@ -10,13 +10,16 @@ const ToolList = () => {
   // Check if updatedAffiliateLinks is not only an array but also has objects with required properties
   const validData = updatedAffiliateLinks.every(tool => tool.title && tool.affiliateLink);
 
+  // Additional check to ensure updatedAffiliateLinks is not empty
+  const hasTools = updatedAffiliateLinks.length > 0;
+
   return (
     <Box>
       <Heading as="h2" size="xl" mb={6}>
         AI Tools Directory
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={5}>
-        {validData ? (
+        {validData && hasTools ? (
           updatedAffiliateLinks.map((tool, index) => (
             <ToolCard key={index} {...tool} />
           ))
