@@ -13,9 +13,13 @@ const ToolList = () => {
         AI Tools Directory
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={5}>
-        {updatedAffiliateLinks.map((tool, index) => (
-          <ToolCard key={index} {...tool} />
-        ))}
+        {updatedAffiliateLinks && updatedAffiliateLinks.length > 0 ? (
+          updatedAffiliateLinks.map((tool, index) => (
+            <ToolCard key={index} {...tool} />
+          ))
+        ) : (
+          <p>No tools available.</p>
+        )}
       </SimpleGrid>
     </Box>
   );
