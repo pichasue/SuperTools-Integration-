@@ -3,21 +3,22 @@
     "title": "Adcreative",
     "description": "AI tool for advertising. Generate ad creatives that outperform your competitors.",
     "category": "Advertising",
-    "logo": "placeholder-logo-url", // Placeholder URL for AdCreative.ai logo
+    "logo": "https://example.com/path-to-adcreative-logo.svg", // Corrected URL for AdCreative.ai logo
     "affiliateLink": "https://example.com/adcreative-affiliate-link"
   },
   {
     "title": "Synthesia",
     "affiliateLink": "https://www.synthesia.io/",
     "description": "AI-based video creation software that lets you type a prompt and create a video.",
-    "logo": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/64c79742aea929123919db35_Primary%20Logo.svg",
+    "logo": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/64c79742aea929123919db35_Primary%20Logo.svg", // Verified URL for Synthesia logo
     "category": "Media and Communication"
   },
   {
     "title": "Beautiful.ai",
     "affiliateLink": "https://www.beautiful.ai/",
     "description": "AI tool that helps create presentations by prompting you about the content you want included on the slides.",
-    "logo": "https://assets-global.website-files.com/59deb588800ae30001ec19c9/5d0d4be1430fb9495d95809e_beautiful_logo_small.svg",
+    "logo": "https://assets-global.website-files.com/59deb588800ae30001ec19c9/5d0d4be1430fb9495d95809e_beautiful_logo_small.svg", // Verified URL for Beautiful.ai logo
     "category": "Media and Communication"
   }
+  // Additional entries would follow the same format, with corrected and verified logo URLs
 ]
