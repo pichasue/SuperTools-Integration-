@@ -3,7 +3,7 @@
     "title": "Adcreative",
     "description": "AI tool for advertising. Generate ad creatives that outperform your competitors.",
     "category": "Advertising",
-    "logo": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 22.216 21.629\"><g id=\"Group_12165\" data-name=\"Group 12165\" transform=\"translate(0 0)\"><g id=\"Group_12167\" data-name=\"Group 12167\" transform=\"translate(0 0)\"><path id=\"Path_25452\" data-name=\"Path 25452\" d=\"M20.144,5.406l-6.9-4.84a4.306,4.306,0,0,0-4.338.04L2.139,5.369A4.286,4.286,0,0,0,0,9.067v8.289a4.277,4.277,0,0,0,4.273,4.273H6.165a1.183,1.183,0,0,0,1.183-1.183v-5.1a1.393,1.393,0,0,1,1.393-1.392h4.734a1.392,1.392,0,0,1,1.392,1.392v5.1a1.184,1.184,0,0,0,1.184,1.183h1.892a4.277,4.277,0,0,0,4.273-4.273V9.067a4.245,4.245,0,0,0-2.072-3.661\" transform=\"translate(0 0)\" fill=\"#0a0a0a\"></path></g></g></svg>",
+    "logo": "placeholder-logo-url", // Placeholder URL for AdCreative.ai logo
     "affiliateLink": "https://example.com/adcreative-affiliate-link"
   },
   {
@@ -17,8 +17,7 @@
     "title": "Beautiful.ai",
     "affiliateLink": "https://www.beautiful.ai/",
     "description": "AI tool that helps create presentations by prompting you about the content you want included on the slides.",
-    "logo": "https://example.com/beautiful-logo.png",
+    "logo": "https://assets-global.website-files.com/59deb588800ae30001ec19c9/5d0d4be1430fb9495d95809e_beautiful_logo_small.svg",
     "category": "Media and Communication"
   }
-  // ... rest of the file remains unchanged ...
 ]
