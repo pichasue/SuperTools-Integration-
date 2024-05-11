@@ -11,36 +11,47 @@ const updateAffiliateLinks = () => {
     .pipe(csv())
     .on('data', (row) => {
       // Check if the row contains the necessary data and is not just a placeholder row
-      if (row.Application && row['Affiliate Link'] && row.Logo && row.Application.trim() !== '') {
+      // Ensure that the row has non-empty 'Application' and 'Affiliate Link' fields
+      if (row['Application'] && row['Affiliate Link'] && row['Application'].trim() !== '' && row['Affiliate Link'].trim() !== '') {
+        // Push the valid data into the toolsData array
         toolsData.push({
-          title: row.Application.trim(),
+          title: row['Application'].trim(),
           affiliateLink: row['Affiliate Link'].trim(),
-          logo: row.Logo.trim(),
-          // Assuming the CSV has 'Description' and 'Category' columns
-          description: row.Description ? row.Description.trim() : 'No description available.',
-          category: row.Category ? row.Category.trim() : 'Uncategorized'
+          logo: row['Logo'] ? row['Logo'].trim() : 'No logo available.', // Use a placeholder if the logo is not provided
+          description: row['Description'] ? row['Description'].trim() : 'No description available.',
+          category: row['Category'] ? row['Category'].trim() : 'Uncategorized'
         });
       }
     })
     .on('end', () => {
+      // Read the existing JSON file
       fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
           console.error('Error reading file:', err);
           return;
         }
-        const tools = JSON.parse(data);
+        // Parse the existing tools data
+        let tools = JSON.parse(data);
 
         // Update each tool with the actual affiliate links, logos, descriptions, and categories
-        tools.forEach(tool => {
+        tools = tools.map(tool => {
+          // Find the corresponding tool data from the CSV parsing result
           const toolData = toolsData.find(t => t.title === tool.title);
           if (toolData) {
-            tool.affiliateLink = toolData.affiliateLink;
-            tool.logo = toolData.logo;
-            tool.description = toolData.description;
-            tool.category = toolData.category;
+            // If found, return the updated tool data
+            return {
+              ...tool,
+              affiliateLink: toolData.affiliateLink,
+              logo: toolData.logo,
+              description: toolData.description,
+              category: toolData.category
+            };
           }
+          // If not found, return the tool data without changes
+          return tool;
         });
 
+        // Write the updated tools data back to the JSON file
         fs.writeFile(filePath, JSON.stringify(tools, null, 2), 'utf8', (err) => {
           if (err) {
             console.error('Error writing file:', err);
@@ -52,4 +63,5 @@ const updateAffiliateLinks = () => {
     });
 };
 
+// Execute the update function
 updateAffiliateLinks();
