@@ -2,13 +2,15 @@
   {
     "title": "Adcreative",
     "description": "AI tool for advertising. Generate ad creatives that outperform your competitors.",
-    "category": "Advertising"
+    "category": "Advertising",
+    "logo": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewBox=\"0 0 22.216 21.629\"><g id=\"Group_12165\" data-name=\"Group 12165\" transform=\"translate(0 0)\"><g id=\"Group_12167\" data-name=\"Group 12167\" transform=\"translate(0 0)\"><path id=\"Path_25452\" data-name=\"Path 25452\" d=\"M20.144,5.406l-6.9-4.84a4.306,4.306,0,0,0-4.338.04L2.139,5.369A4.286,4.286,0,0,0,0,9.067v8.289a4.277,4.277,0,0,0,4.273,4.273H6.165a1.183,1.183,0,0,0,1.183-1.183v-5.1a1.393,1.393,0,0,1,1.393-1.392h4.734a1.392,1.392,0,0,1,1.392,1.392v5.1a1.184,1.184,0,0,0,1.184,1.183h1.892a4.277,4.277,0,0,0,4.273-4.273V9.067a4.245,4.245,0,0,0-2.072-3.661\" transform=\"translate(0 0)\" fill=\"#0a0a0a\"></path></g></g></svg>",
+    "affiliateLink": "https://example.com/adcreative-affiliate-link"
   },
   {
     "title": "Synthesia",
     "affiliateLink": "https://www.synthesia.io/",
     "description": "AI-based video creation software that lets you type a prompt and create a video.",
-    "logo": "https://example.com/synthesia-logo.png",
+    "logo": "https://assets-global.website-files.com/61dc0796f359b6145bc06ea6/64c79742aea929123919db35_Primary%20Logo.svg",
     "category": "Media and Communication"
   },
   {
@@ -17,54 +19,6 @@
     "description": "AI tool that helps create presentations by prompting you about the content you want included on the slides.",
     "logo": "https://example.com/beautiful-logo.png",
     "category": "Media and Communication"
-  },
-  {
-    "title": "ChatGPT",
-    "affiliateLink": "https://www.openai.com/chatgpt",
-    "description": "Chatbot tool from OpenAI that uses natural language processing to give answers to your questions.",
-    "logo": "https://example.com/chatgpt-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "Prezly",
-    "affiliateLink": "https://www.prezly.com/",
-    "description": "PR software that offers an integrated DeepL AI auto translation feature.",
-    "logo": "https://example.com/prezly-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "DeepL",
-    "affiliateLink": "https://www.deepl.com/",
-    "description": "Powerful AI tool for translating text quickly and accurately across multiple languages.",
-    "logo": "https://example.com/deepl-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "MidJourney",
-    "affiliateLink": "https://www.midjourney.com/",
-    "description": "AI tool for creating custom images.",
-    "logo": "https://example.com/midjourney-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "Dall-E",
-    "affiliateLink": "https://www.openai.com/dall-e",
-    "description": "AI tool for creating custom images.",
-    "logo": "https://example.com/dall-e-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "Synthesia.io",
-    "affiliateLink": "https://www.synthesia.io/",
-    "description": "AI video generator that allows you to have an AI-generated model speak your content.",
-    "logo": "https://example.com/synthesiaio-logo.png",
-    "category": "Media and Communication"
-  },
-  {
-    "title": "HourOne.ai",
-    "affiliateLink": "https://www.hourone.ai/",
-    "description": "AI video generator for creating videos with customized scripts.",
-    "logo": "https://example.com/hourone-logo.png",
-    "category": "Media and Communication"
   }
+  // ... rest of the file remains unchanged ...
 ]
