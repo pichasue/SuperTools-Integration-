@@ -15,10 +15,8 @@ const SubscriptionForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // TODO: Replace this URL with the actual subscription service endpoint
-    const subscriptionEndpoint = 'https://example.com/subscribe'; // Placeholder URL
+    const subscriptionEndpoint = '/.netlify/functions/subscribe'; // Updated to use the Netlify function endpoint
     try {
-      // TODO: Replace this fetch call with the actual API call to the subscription service
       const response = await fetch(subscriptionEndpoint, {
         method: 'POST',
         headers: {
@@ -37,7 +35,6 @@ const SubscriptionForm = () => {
         });
         setEmail(''); // Clear the input after successful subscription
       } else {
-        // Handle errors here, such as displaying a notification to the user
         toast({
           title: 'Subscription failed.',
           description: "There was an issue adding your email to our mailing list.",
@@ -47,7 +44,6 @@ const SubscriptionForm = () => {
         });
       }
     } catch (error) {
-      // Handle network errors here
       toast({
         title: 'Network error.',
         description: "There was a problem connecting to the subscription service.",
@@ -58,7 +54,6 @@ const SubscriptionForm = () => {
     }
   };
 
-  // Use brand colors for styling
   const bgColor = useColorModeValue('teal.500', 'teal.200');
   const color = useColorModeValue('white', 'gray.800');
 
@@ -89,7 +84,6 @@ const SubscriptionForm = () => {
           </Button>
         </FormControl>
       </form>
-      {/* TODO: Add placeholders for analytics scripts like Google Tag Manager and Fathom here. */}
     </Box>
   );
 };
