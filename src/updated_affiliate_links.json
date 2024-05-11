@@ -1,16 +1,16 @@
 [
   {
     "title": "Adcreative",
-    "description": "No description available.",
-    "category": "Uncategorized",
+    "description": "Automate ad design with AI-powered creativity.",
+    "category": "Marketing",
     "affiliateLink": "https://free-trial.adcreative.ai/love2024",
-    "logo": "No logo available."
+    "logo": "https://example.com/adcreative-logo.png"
   },
   {
     "title": "Figma",
-    "description": "No description available.",
-    "category": "Uncategorized",
+    "description": "Collaborative interface design tool.",
+    "category": "Design",
     "affiliateLink": "https://psxid.figma.com/hzcy968yp4dw-lpaypq",
-    "logo": "No logo available."
+    "logo": "https://example.com/figma-logo.png"
   }
 ]
