@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Placeholder Tool 1",
+    "description": "This is a placeholder description for Tool 1.",
+    "tags": ["Tag1", "Tag2"],
+    "affiliateLink": "http://placeholder-affiliate-link.com",
+    "logo": "http://placeholder-logo-url.com"
+  },
+  {
+    "title": "Placeholder Tool 2",
+    "description": "This is a placeholder description for Tool 2.",
+    "tags": ["Tag1", "Tag2"],
+    "affiliateLink": "http://placeholder-affiliate-link.com",
+    "logo": "http://placeholder-logo-url.com"
+  }
+  // Additional tools can be added here following the same structure
+]
