@@ -13,7 +13,7 @@ const NavBar = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#tools">Tools</a></li>
         {/* Join for Free button */}
-        <li><a href="#join" className="join-for-free">Join for Free</a></li>
+        <li><a href="#join" className="join-for-free" devin-id="join-for-free">Join for Free</a></li>
       </ul>
     </nav>
   );
