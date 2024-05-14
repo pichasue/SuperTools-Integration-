@@ -1,0 +1,91 @@
+/* Main content area styling */
+main {
+  background-color: #121212; /* Dark background for the main content area */
+  color: #ffffff; /* Light text color for readability */
+  padding: 2rem; /* Padding around the main content */
+}
+
+/* Headline styling */
+main h1 {
+  font-size: 2.5rem; /* Large font size for impact */
+  font-weight: bold; /* Bold font weight for prominence */
+  margin-bottom: 1rem; /* Space below the headline */
+}
+
+/* Description text styling */
+main p {
+  font-size: 1rem; /* Smaller font size for hierarchy */
+  margin-bottom: 1rem; /* Space below the description text */
+}
+
+/* Subheading styling */
+main h3 {
+  font-size: 1.2rem; /* Slightly larger font size for subheading */
+  color: #ff7a59; /* Distinctive color for subheading */
+  margin-bottom: 1rem; /* Space below the subheading */
+}
+
+/* Email subscription form styling */
+main form {
+  display: flex; /* Align form elements horizontally */
+  gap: 0.5rem; /* Space between form elements */
+  margin-bottom: 2rem; /* Space below the form */
+}
+
+/* Input field styling */
+main input[type="email"] {
+  flex-grow: 1; /* Allow input to grow and fill space */
+  padding: 0.5rem; /* Padding inside the input field */
+  border: 1px solid #ffffff; /* Border color for input */
+  border-radius: 5px; /* Rounded corners for input */
+}
+
+/* 'Join Free' button styling */
+main button {
+  background-color: #ff7a59; /* Bright color for the button */
+  color: #ffffff; /* White text color for the button */
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  border: none; /* No border for the button */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Category tags styling */
+main .category-tags {
+  display: flex; /* Align category tags horizontally */
+  flex-wrap: wrap; /* Allow tags to wrap to next line */
+  gap: 0.5rem; /* Space between tags */
+}
+
+/* Individual category tag styling */
+main .category-tag {
+  background-color: #2c2c2c; /* Background color for tags */
+  color: #ffffff; /* Text color for tags */
+  padding: 0.3rem 0.6rem; /* Padding inside tags */
+  border-radius: 5px; /* Rounded corners for tags */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem; /* Reduced padding on smaller screens */
+  }
+
+  main h1 {
+    font-size: 2rem; /* Smaller font size for headline on smaller screens */
+  }
+
+  main form {
+    flex-direction: column; /* Stack form elements vertically on smaller screens */
+  }
+
+  main input[type="email"],
+  main button {
+    width: 100%; /* Full width for input and button on smaller screens */
+  }
+
+  main .category-tags {
+    justify-content: center; /* Center tags on smaller screens */
+  }
+}

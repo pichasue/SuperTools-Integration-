@@ -1,0 +1,44 @@
+nav {
+  background-color: #333; /* Dark background for the navigation bar */
+  color: #fff; /* Light text color for contrast */
+  padding: 1rem; /* Padding around the navigation bar content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out logo and navigation links */
+  align-items: center; /* Center items vertically */
+}
+
+nav a {
+  color: inherit; /* Inherit the white text color */
+  text-decoration: none; /* No underlines on links */
+  margin-right: 2rem; /* Space between navigation links */
+}
+
+nav a:last-child {
+  margin-right: 0; /* No margin on the last link */
+}
+
+/* Distinctive style for the 'Join for Free' button */
+.join-for-free {
+  background-color: #ff7a59; /* Standout color for the button */
+  color: #fff; /* White text color */
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  nav a {
+    margin: 0.5rem 0; /* Vertical margin for links */
+  }
+
+  .join-for-free {
+    width: 100%; /* Full width button on small screens */
+    margin-top: 1rem; /* Margin above the button */
+  }
+}
