@@ -1,7 +1,7 @@
 nav {
-  background-color: #333; /* Dark background for the navigation bar */
+  background-color: #0A0A0A; /* Updated to match the original site's dark background */
   color: #fff; /* Light text color for contrast */
-  padding: 1rem; /* Padding around the navigation bar content */
+  padding: 1rem 2rem; /* Updated padding for better spacing */
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out logo and navigation links */
   align-items: center; /* Center items vertically */
@@ -11,6 +11,11 @@ nav a {
   color: inherit; /* Inherit the white text color */
   text-decoration: none; /* No underlines on links */
   margin-right: 2rem; /* Space between navigation links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  color: #ff7a59; /* Hover effect color to match the 'Join for Free' button */
 }
 
 nav a:last-child {
@@ -25,16 +30,23 @@ nav a:last-child {
   border: none; /* No border */
   border-radius: 5px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.join-for-free:hover {
+  background-color: #e5674f; /* Darker shade on hover to provide feedback */
 }
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   nav {
     flex-direction: column; /* Stack items vertically on small screens */
+    padding: 1rem; /* Adjust padding for smaller screens */
   }
 
   nav a {
     margin: 0.5rem 0; /* Vertical margin for links */
+    text-align: center; /* Center links on small screens */
   }
 
   .join-for-free {
